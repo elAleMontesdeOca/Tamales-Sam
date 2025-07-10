@@ -1,0 +1,3 @@
+### 💳 `feature/tipopago`
+Permite la creación o edición de los tipos de pago disponibles: tarjeta o efectivo.
+- Tabla relacionada: `TipoPago`
