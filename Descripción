@@ -1,0 +1,3 @@
+### 🧾 `feature/facturas`
+Módulo para emitir facturas a partir de las órdenes confirmadas. Incluye el cálculo total y método de pago.
+- Tablas relacionadas: `Factura`, `Orden`, `TipoPago`, `Cliente`
