@@ -1,0 +1,3 @@
+### 📦 `feature/ordenes`
+Contendrá todo lo relacionado con la creación y seguimiento de órdenes de tamales, incluyendo la asignación de productos, mesas, cliente y método de pago. 
+- Tablas relacionadas: `Orden`, `Cliente`, `Producto`, `Mesa`, `TipoPago`
