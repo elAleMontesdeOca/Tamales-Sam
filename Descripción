@@ -1,0 +1,3 @@
+### 🍽️ `feature/mesas`
+Módulo para la administración de las mesas del restaurante: número de mesa y capacidad.
+- Tabla relacionada: `Mesa`
