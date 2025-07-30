@@ -50,12 +50,13 @@ class OrdenController extends Controller
 
     public function create()
     {
-        return view('ordenes.create', [
-            'clientes' => Cliente::all(),
-            'mesas' => Mesa::all(),
-            'productos' => Producto::all(),
-            'tiposPago' => TipoPago::all()
-        ]);
+        $clientes = Cliente::all();
+        $mesas = Mesa::all();
+        $productos = Producto::all();
+        $tipoPago = TipoPago::all();
+
+        return view('ordenes.create', compact('clientes', 'mesas', 'productos', 'tipoPago'));
+        
     }
 
     public function store(Request $request)
